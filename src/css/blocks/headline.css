@@ -14,11 +14,11 @@
   font-size: 30px;
   line-height: normal;
   font-weight: 300;
+  letter-spacing: 10px;
 }
 
 .headline__button {
   display: block;
-  border: 1px solid #ffffff;
   padding: 10px;
   min-width: 262px;
 
@@ -27,4 +27,8 @@
   font-size: 30px;
   line-height: normal;
   font-weight: 300;
+  letter-spacing: 15px;
+
+  border: 1px solid #ffffff;
+  border-radius: 10px;
 }
