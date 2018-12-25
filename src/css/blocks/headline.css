@@ -1,0 +1,30 @@
+.headline {
+  margin-top: 250px;
+  margin-right: 290px;
+  float: right;
+
+  text-align: center;
+}
+
+.headline__text {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 130px;
+
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 300;
+}
+
+.headline__button {
+  display: block;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  min-width: 262px;
+
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 300;
+}
