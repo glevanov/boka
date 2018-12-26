@@ -1,0 +1,25 @@
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+
+  font-size: 25px;
+  line-height: normal;
+  font-weight: 300;
+  color: #1f253d;
+}
+
+.navigation__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation__link--selected::after {
+
+}

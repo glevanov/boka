@@ -1,0 +1,29 @@
+.promo {}
+
+.promo__models {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.promo__lead {
+  font-size: 50px;
+  line-height: normal;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  margin: 0;
+}
+
+.promo__text {
+  font-size: 20px;
+  line-height: normal;
+  text-align: left;
+  font-weight: 300;
+
+  width: 1170px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
