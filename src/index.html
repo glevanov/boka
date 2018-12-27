@@ -45,16 +45,16 @@
         <input  class="visually-hidden" id="preference-women" type="radio" name="preference" value="woman" checked>
         <label class="registration__option" for="preference-women">Women</label>
       </div>
-      <label>
-        email
-        <input id="registration-email" type="email">
-      </label>
-      <label>
-        Password
-        <input id="registration-password" type="password">
-      </label>
-      <button type="submit">Join now</button>
-      <p class="form__disclaimer">By registering you agree to the Terms and Conditions or Privacy Policy.<br>
+      <div class="registration__group">
+        <label for="registration-email">email</label>
+        <input class="registration__input" id="registration-email" type="email" required>
+      </div>
+      <div class="registration__group">
+        <label for="registration-password">Password</label>
+        <input class="registration__input" id="registration-password" type="password" required>
+      </div>
+      <button class="registration__button" type="submit">Join now</button>
+      <p class="registration__disclaimer">By registering you agree to the Terms and Conditions or Privacy Policy.<br>
         You will receive all communication from Boka directly in your mail box.</p>
     </form>
   </section>
