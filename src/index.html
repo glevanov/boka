@@ -28,13 +28,39 @@
   </div>
 </header>
 <main class="main">
-  <section class="register">
-    <p>Get Started</p>
-    <form class="form">
-      <label>I am </label>
-      <label>Looking for</label>
-      <label>email</label>
-      <label>Password</label>
+  <section class="registration">
+    <p class="registration__lead">Get Started</p>
+    <form class="registration__form">
+      <fieldset class="registration__fieldset">
+        <legend>I am </legend>
+        <label>
+          Men
+          <input class="visually-hidden" id="sex-man" type="radio" name="sex" value="man">
+        </label>
+        <label>
+          Women
+          <input  class="visually-hidden" id="sex-women" type="radio" name="sex" value="woman">
+        </label>
+      </fieldset>
+      <fieldset class="registration__fieldset">
+        <legend>Looking for </legend>
+        <label>
+          Men
+          <input  class="visually-hidden" id="preference-man" type="radio" name="preference" value="man">
+        </label>
+        <label>
+          Women
+          <input  class="visually-hidden" id="preference-women" type="radio" name="preference" value="woman">
+        </label>
+      </fieldset>
+      <label>
+        email
+        <input id="registration-email" type="email">
+      </label>
+      <label>
+        Password
+        <input id="registration-password" type="password">
+      </label>
       <button type="submit">Join now</button>
       <p class="form__disclaimer">By registering you agree to the Terms and Conditions or Privacy Policy.<br>
         You will receive all communication from Boka directly in your mail box.</p>
