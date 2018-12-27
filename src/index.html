@@ -31,28 +31,20 @@
   <section class="registration">
     <p class="registration__lead">Get Started</p>
     <form class="registration__form">
-      <fieldset class="registration__fieldset">
-        <legend>I am </legend>
-        <label>
-          Men
-          <input class="visually-hidden" id="sex-man" type="radio" name="sex" value="man">
-        </label>
-        <label>
-          Women
-          <input  class="visually-hidden" id="sex-women" type="radio" name="sex" value="woman">
-        </label>
-      </fieldset>
-      <fieldset class="registration__fieldset">
-        <legend>Looking for </legend>
-        <label>
-          Men
-          <input  class="visually-hidden" id="preference-man" type="radio" name="preference" value="man">
-        </label>
-        <label>
-          Women
-          <input  class="visually-hidden" id="preference-women" type="radio" name="preference" value="woman">
-        </label>
-      </fieldset>
+      <div class="registration__group">
+        <p class="registration__legend">I am </p>
+        <input class="visually-hidden" id="sex-man" type="radio" name="sex" value="man" checked>
+        <label class="registration__option" for="sex-man">Men</label>
+        <input class="visually-hidden" id="sex-women" type="radio" name="sex" value="woman">
+        <label class="registration__option" for="sex-women">Women</label>
+      </div>
+      <div class="registration__group">
+        <p class="registration__legend">Looking for </p>
+        <input  class="visually-hidden" id="preference-man" type="radio" name="preference" value="man">
+        <label class="registration__option" for="preference-man">Men</label>
+        <input  class="visually-hidden" id="preference-women" type="radio" name="preference" value="woman" checked>
+        <label class="registration__option" for="preference-women">Women</label>
+      </div>
       <label>
         email
         <input id="registration-email" type="email">
