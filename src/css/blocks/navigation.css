@@ -24,8 +24,22 @@
 .navigation__link {
   color: inherit;
   text-decoration: none;
+
+  position: relative;
 }
 
-.navigation__link--selected::after {
+.navigation__link:hover,
+.navigation__link:focus {
+  outline: none;
+}
 
+.navigation__link:hover::after,
+.navigation__link:focus::after {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 100%;
+  background-color: #1f253d;
+  bottom: -30px;
+  left: 0;
 }

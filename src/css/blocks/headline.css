@@ -37,3 +37,11 @@
   border: 1px solid #ffffff;
   border-radius: 10px;
 }
+
+.headline__button:hover,
+.headline__button:focus {
+  outline: none;
+  color: #11a8ab;
+  background-color: rgba(17, 168, 171, 0.1);
+  border-color: #11a8ab;
+}

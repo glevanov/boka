@@ -70,6 +70,8 @@
   padding: 18px;
   box-sizing: border-box;
   width: 195px;
+
+  cursor: pointer;
 }
 
 .registration__option:first-of-type {
@@ -95,6 +97,13 @@ input:checked + .registration__option {
   width: 490px;
 
   margin-left: auto;
+  border-bottom: 1px solid #1f253d;
+  outline: none;
+}
+
+.registration__input:invalid {
+  border-color: #ff0000;
+  box-shadow: none;
 }
 
 .registration__button {
@@ -113,6 +122,14 @@ input:checked + .registration__option {
   line-height: normal;
   font-weight: 300;
   color: #ffffff;
+
+  cursor: pointer;
+}
+
+.registration__button:hover,
+.registration__button:focus {
+  background-color: #ffffff;
+  color: #1f253d;
 }
 
 .registration__disclaimer {
